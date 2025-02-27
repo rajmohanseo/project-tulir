@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu - TulirTech</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #1c1c1c;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .nav-item {
+            list-style: none;
+            display: inline-block;
+            position: relative;
+        }
+
+        .nav-item a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 10px 15px;
+            display: block;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-item a:hover {
+            color: #00bcd4;
+        }
+
+        /* Dropdown Menu */
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #1c1c1c;
+            top: 40px;
+            left: 0;
+            min-width: 200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .dropdown li {
+            list-style: none;
+        }
+
+        .dropdown li a {
+            padding: 10px;
+            display: block;
+            color: #cccccc;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        .dropdown li a:hover {
+            background-color: #00bcd4;
+            color: #121212;
+        }
+
+        /* Show dropdown on hover */
+        .nav-item:hover .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <ul class="nav-container">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item">
+                <a href="#">Services ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Marketing Services</a></li>
+                    <li><a href="#">Testing & QA</a></li>
+                    <li><a href="#">SEO Optimization</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#">Portfolio</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
