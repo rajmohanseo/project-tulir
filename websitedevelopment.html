@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development - TulirTech</title>
+    <link rel="stylesheet" href="webdevelopment.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">TulirTech</a>
+            </div>
+                <ul class="nav-container">
+                    <li class="nav-item">
+                        <a href="#"> Our Services ▾</a>
+                        <ul class="dropdown">
+                            <li><a href="websitedevelopment.html">Website Development</a></li>
+                            <li><a href="#">Testing & QA</a></li>
+                            <li><a href="#">Marketing Services</a></li>
+                            <li><a href="#">Content Writing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">Portfolio</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                    <li class="nav-item"><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+            <a href="Contactus.html" class="cta">Contact Us</a>
+    </header>
+    <script>
+        // Get the header element
+        const header = document.getElementById("header");
+
+        // When mouse enters header, show it
+        header.addEventListener("mouseenter", () => {
+            header.style.opacity = "1";
+            header.style.visibility = "visible";
+        });
+
+        // When mouse leaves header, fade it out
+        header.addEventListener("mouseleave", () => {
+            header.style.opacity = "0";
+            header.style.visibility = "hidden";
+        });
+    </script>
+    
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Website Development Services</h1>
+                <p>We build scalable, high-performing, and user-friendly websites tailored to your business needs.</p>
+                <a href="contact.html" class="cta">Get a Free Quote</a>
+            </div>
+        </section>
+    
+        <!-- Our Expertise Section -->
+        <section class="expertise">
+            <h2>Our Expertise in Website Development</h2>
+            <p>From simple business websites to complex web applications, we deliver top-notch solutions using the latest technologies.</p>
+            
+            <div class="expertise-container">
+                <div class="expertise-item">
+                    <h3>Custom Website Development</h3>
+                    <p>We create unique, tailor-made websites that align with your brand and business goals.</p>
+                </div>
+                <div class="expertise-item">
+                    <h3>E-Commerce Solutions</h3>
+                    <p>Boost your online sales with secure, user-friendly, and scalable e-commerce platforms.</p>
+                </div>
+                <div class="expertise-item">
+                    <h3>CMS Development</h3>
+                    <p>Manage your content effortlessly with custom CMS solutions like WordPress, Joomla, and Drupal.</p>
+                </div>
+                <div class="expertise-item">
+                    <h3>Web Applications</h3>
+                    <p>We develop interactive, high-performance web applications tailored to your business needs.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Tech Stack Section -->
+        <section class="tech-stack">
+            <h2>Tech Stack We Use</h2>
+            <p>We use modern technologies to ensure speed, security, and scalability for your website.</p>
+            
+            <div class="tech-container">
+                <div class="tech-item">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js, Angular</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Backend</h3>
+                    <p>Node.js, PHP, Python, Ruby on Rails, Java</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Databases</h3>
+                    <p>MySQL, PostgreSQL, MongoDB, Firebase</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Hosting & Cloud</h3>
+                    <p>AWS, Google Cloud, DigitalOcean, Azure</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us">
+            <h2>Why Choose TulirTech?</h2>
+            <div class="why-container">
+                <div class="why-item">
+                    <h3>Experienced Team</h3>
+                    <p>Our skilled developers have years of experience in building cutting-edge websites.</p>
+                </div>
+                <div class="why-item">
+                    <h3>SEO Optimized</h3>
+                    <p>We build SEO-friendly websites to help you rank higher on search engines.</p>
+                </div>
+                <div class="why-item">
+                    <h3>Scalability & Security</h3>
+                    <p>We ensure that your website is fast, secure, and scalable for future growth.</p>
+                </div>
+                <div class="why-item">
+                    <h3>Dedicated Support</h3>
+                    <p>We provide 24/7 support and maintenance for a hassle-free experience.</p>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer-container">
+                <p>&copy; 2025 TulirTech. All rights reserved.</p>
+            </div>
+        </footer>    
+    </body>
+    </html>

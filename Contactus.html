@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - TulirTech</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         /* Global Styles */
         body {
@@ -12,7 +13,9 @@
             background-color: #121212;
             color: #ffffff;
         }
-
+        body {
+            padding-top: 100px; /* Adjust based on header height */
+        }
         /* Contact Section */
         .contact-container {
             display: flex;
@@ -119,7 +122,28 @@
     </style>
 </head>
 <body>
-
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">TulirTech</a>
+            </div>
+                <ul class="nav-container">
+                    <li class="nav-item">
+                        <a href="#"> Our Services ▾</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Website Development</a></li>
+                            <li><a href="#">Testing & QA</a></li>
+                            <li><a href="#">Marketing Services</a></li>
+                            <li><a href="#">Content Writing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">Portfolio</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                    <li class="nav-item"><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+            <a href="Contactus.html" class="cta">Contact Us</a>
+    </header>
     <div class="contact-container">
         <div class="contact-box">
             <h2>Contact Us</h2>

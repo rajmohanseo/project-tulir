@@ -29,11 +29,16 @@ header {
 }
 
 /* Logo */
-.logo {
+.logo a {
+    text-decoration: none;
+    color: #00bcd4;
     font-size: 24px;
     font-weight: bold;
-    color: #00bcd4;
     letter-spacing: 1px;
+}
+
+.logo {
+    cursor: pointer;
 }
 
 /* Navigation Menu */
@@ -108,6 +113,249 @@ header {
     margin-bottom: 30px;
 }
 
+/* Services Section */
+.services-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.service {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.service h2 {
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.learn-more:hover {
+    background-color: #008ba3;
+}
+/* General Section Styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Services Section */
+.services-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    background-color: #1c1c1c;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+    background: #262626;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Section */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-item {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+}
+
+.read-more {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    background: #1c1c1c;
+    color: #ffffff;
+    padding: 50px 20px;
+}
+/* General Section Styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h2 {
+    color: #00bcd4;
+}
+
+/* Content Color */
+p, a {
+    color: white;
+}
+
+/* Services Section */
+.services-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    background-color: #1c1c1c;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+    background: #262626;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Section */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-item {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background: #262626;
+    border-radius: 10px;
+}
+
+/* Read More Link */
+.read-more {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    background: #1c1c1c;
+    padding: 50px 20px;
+}
+
+/* Footer */
+footer {
+    background: #1c1c1c;
+    color: white;
+    padding: 20px 0;
+}
+
 /* CTA Button */
 .cta {
     background-color: #00bcd4;
@@ -124,6 +372,11 @@ header {
     background-color: #008ba3;
     transform: scale(1.05);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Fade-in Animation */
 @keyframes fadeIn {
