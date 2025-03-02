@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WISDOMINDS CO-OPERATIVE INC. - Membership Application</title>
+  <link rel="stylesheet" href="membership.css">
+</head>
+<body>
+  <div class="form-container">
+    <header>
+      <h1>WISDOMINDS CO-OPERATIVE INC.</h1>
+      <h2>Membership Application Form</h2>
+    </header>
+    <form id="membershipForm">
+      <!-- PERSONAL INFORMATION -->
+      <section class="form-section">
+        <h3>1. Personal Information</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" required>
+          </div>
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="otherNames">Other Names</label>
+            <input type="text" id="otherNames" name="otherNames">
+          </div>
+          <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+              <label><input type="radio" name="gender" value="male" required> Male</label>
+              <label><input type="radio" name="gender" value="female" required> Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="residentialAddress">Residential Address</label>
+            <input type="text" id="residentialAddress" name="residentialAddress" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street" required>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="postalCode">Postal Code</label>
+            <input type="text" id="postalCode" name="postalCode" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone No.</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="occupation">Occupation</label>
+            <input type="text" id="occupation" name="occupation" required>
+          </div>
+          <div class="form-group">
+            <label for="civilStatus">Civil Status</label>
+            <select id="civilStatus" name="civilStatus" required>
+              <option value="">Select</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="divorced">Divorced</option>
+              <option value="separated">Separated</option>
+              <option value="widow">Widow</option>
+              <option value="common-law">Common Law</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spouseName">Name of Spouse</label>
+            <input type="text" id="spouseName" name="spouseName">
+          </div>
+          <div class="form-group">
+            <label for="spouseOccupation">Spouse Occupation</label>
+            <input type="text" id="spouseOccupation" name="spouseOccupation">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spouseEmployer">Spouse Employer</label>
+            <input type="text" id="spouseEmployer" name="spouseEmployer">
+          </div>
+        </div>
+      </section>
+
+      <!-- EMPLOYMENT DATA -->
+      <section class="form-section">
+        <h3>2. Employment Data</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Are You Employed?</label>
+            <div class="radio-group">
+              <label><input type="radio" name="employed" value="yes" required> Yes</label>
+              <label><input type="radio" name="employed" value="no" required> No</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="employmentStatus">Status</label>
+            <select id="employmentStatus" name="employmentStatus">
+              <option value="">Select</option>
+              <option value="permanent">Permanent</option>
+              <option value="temporary">Temporary</option>
+              <option value="contract">Contract</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="employerName">Name of Employer/Business</label>
+            <input type="text" id="employerName" name="employerName">
+          </div>
+          <div class="form-group">
+            <label for="employerAddress">Employer's Address</label>
+            <input type="text" id="employerAddress" name="employerAddress">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="position">Position</label>
+            <input type="text" id="position" name="position">
+          </div>
+        </div>
+      </section>
+
+      <!-- NOMINEE/NEXT OF KIN -->
+      <section class="form-section">
+        <h3>3. Nominee/Next of Kin</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineeSurname">Surname</label>
+            <input type="text" id="nomineeSurname" name="nomineeSurname" required>
+          </div>
+          <div class="form-group">
+            <label for="nomineeFirstName">First Name</label>
+            <input type="text" id="nomineeFirstName" name="nomineeFirstName" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineeOtherNames">Other Names</label>
+            <input type="text" id="nomineeOtherNames" name="nomineeOtherNames">
+          </div>
+          <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+              <label><input type="radio" name="nomineeGender" value="male" required> Male</label>
+              <label><input type="radio" name="nomineeGender" value="female" required> Female</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineeAddress">Residential Address</label>
+            <input type="text" id="nomineeAddress" name="nomineeAddress" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineeStreet">Street</label>
+            <input type="text" id="nomineeStreet" name="nomineeStreet" required>
+          </div>
+          <div class="form-group">
+            <label for="nomineeCity">City</label>
+            <input type="text" id="nomineeCity" name="nomineeCity" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineePostalCode">Postal Code</label>
+            <input type="text" id="nomineePostalCode" name="nomineePostalCode" required>
+          </div>
+          <div class="form-group">
+            <label for="nomineeEmail">Email</label>
+            <input type="email" id="nomineeEmail" name="nomineeEmail">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineePhone">Phone No.</label>
+            <input type="tel" id="nomineePhone" name="nomineePhone" required>
+          </div>
+          <div class="form-group">
+            <label for="nomineeDob">Date of Birth</label>
+            <input type="date" id="nomineeDob" name="nomineeDob" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomineeOccupation">Occupation</label>
+            <input type="text" id="nomineeOccupation" name="nomineeOccupation" required>
+          </div>
+        </div>
+      </section>
+
+      <!-- SAVING TYPE -->
+      <section class="form-section">
+        <h3>4. Saving Type</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <div class="radio-group">
+              <label><input type="radio" name="savingType" value="finance" required> Saving for Finance</label>
+              <label><input type="radio" name="savingType" value="rainyDay" required> Saving for Rainy Day</label>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REFERRER -->
+      <section class="form-section">
+        <h3>5. Referrer</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="referrerName">Referrer Name</label>
+            <input type="text" id="referrerName" name="referrerName">
+          </div>
+          <div class="form-group">
+            <label for="referrerAddress">Referrer Address</label>
+            <input type="text" id="referrerAddress" name="referrerAddress">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="referrerPhone">Phone No.</label>
+            <input type="tel" id="referrerPhone" name="referrerPhone">
+          </div>
+          <div class="form-group">
+            <label for="referrerStreet">Street</label>
+            <input type="text" id="referrerStreet" name="referrerStreet">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="referrerCity">City</label>
+            <input type="text" id="referrerCity" name="referrerCity">
+          </div>
+          <div class="form-group">
+            <label for="referrerPostalCode">Postal Code</label>
+            <input type="text" id="referrerPostalCode" name="referrerPostalCode">
+          </div>
+        </div>
+      </section>
+
+      <!-- MEMBER DECLARATION AND CONSENT -->
+      <section class="form-section">
+        <h3>6. Member Declaration and Consent</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <textarea id="declaration" readonly>
+I, declare and confirm that the information given in the application is true and correct. I hereby pledge my allegiance to obey the rules and regulations of the institution.
+            </textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label><input type="checkbox" id="agree" name="agree" required> I agree to the terms and conditions.</label>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUBMIT BUTTON -->
+      <div class="form-row">
+        <button type="submit">Submit Application</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="membership.js"></script>
+</body>
+</html>
