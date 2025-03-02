@@ -144,3 +144,331 @@ body {
       padding: 30px;
     }
   }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    max-width: 60px; /* Adjust the size of the logo */
+    height: auto;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #34495e;
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+  
+  h3 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  .form-section {
+    margin-bottom: 25px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1 1 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="date"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (min-width: 600px) {
+    .form-group {
+      flex: 1 1 calc(50% - 15px); /* Two columns on tablets and larger screens */
+    }
+  
+    button {
+      width: auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    .form-container {
+      padding: 30px;
+    }
+  
+    .logo {
+      max-width: 80px; /* Increase logo size on larger screens */
+    }
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    max-width: 60px; /* Adjust the size of the logo */
+    height: auto;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #34495e;
+    font-size: 20px;
+    margin: 10px 0 20px;
+  }
+  
+  h3 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  .form-section {
+    margin-bottom: 25px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1 1 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="date"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  /* Center the submit button */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (min-width: 600px) {
+    .form-group {
+      flex: 1 1 calc(50% - 15px); /* Two columns on tablets and larger screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    .form-container {
+      padding: 30px;
+    }
+  
+    .logo {
+      max-width: 80px; /* Increase logo size on larger screens */
+    }
+  }
